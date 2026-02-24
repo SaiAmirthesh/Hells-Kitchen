@@ -20,18 +20,23 @@ home();
 
 homepg.addEventListener('click',(e)=>{
     e.preventDefault();
+    content.style.flexDirection = 'row';
+    content.style.gap = '0rem';
     clear();
     home();
 })
 
 aboutpg.addEventListener('click',(e)=>{
     e.preventDefault();
+    content.style.flexDirection = 'row'
     clear();
     aboutus();
 })
 
 menupg.addEventListener('click',(e)=>{
     e.preventDefault();
+    content.style.flexDirection = 'column';
+    content.style.gap = '6rem';
     clear();
     menu();
 })
