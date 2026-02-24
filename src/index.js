@@ -16,7 +16,6 @@ function clear() {
   content.innerHTML = '';
 }
 
-// Set default styles and load home page
 content.style.flexDirection = 'row';
 content.style.gap = '0rem';
 home();

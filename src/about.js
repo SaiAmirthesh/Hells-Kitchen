@@ -13,7 +13,6 @@ export default function () {
   hero.src = gordon;
   img.appendChild(hero);
 
-  // FIX: title appended before paragraph (was reversed before)
   const title = document.createElement('h1');
   title.innerText = 'About Us';
 

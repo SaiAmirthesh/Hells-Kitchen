@@ -17,7 +17,6 @@ export default function () {
   const title = document.createElement('h2');
   title.innerText = "Welcome to Hell's Kitchen";
 
-  // FIX: replaced curly/smart apostrophe (') with straight apostrophe (')
   const t1 = document.createElement('p');
   t1.innerText =
     "Welcome to Hell's Kitchen, where bold flavors, world-class ingredients, and the signature touch of Gordon Ramsay create an unforgettable dining experience..";
