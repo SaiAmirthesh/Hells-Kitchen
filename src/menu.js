@@ -1,8 +1,8 @@
 import pizza from './assets/image3.jpg';
 import pasta from './assets/image4.jpg';
 import wellington from './assets/image5.jpg';
-import steak from './assets/image2.jpg';
-import chicken from './assets/image2.jpg';
+import steak from './assets/image6.jpg';
+import chicken from './assets/image7.jpg';
 
 export function MenuCard(name,desc,price,img){
     const content = document.getElementById('content');
